@@ -44,26 +44,29 @@ export const Footer = () => {
             <div className="flex items-center gap-4">
               <a
                 href="mailto:contacto@quarksoftware.co"
+                aria-label="Enviar correo a Quark Software"
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary/80 transition-colors"
               >
-                <Mail className="w-5 h-5" />
+                <Mail className="w-5 h-5" aria-hidden="true" />
               </a>
+
               <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visitar LinkedIn de Quark Software"
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary/80 transition-colors"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
+            <p className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
               Servicios
-            </h4>
+            </p>
             <ul className="space-y-3">
               {footerLinks.servicios.map((link) => (
                 <li key={link.name}>
@@ -80,9 +83,9 @@ export const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
+            <p className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
               Empresa
-            </h4>
+            </p>
             <ul className="space-y-3">
               {footerLinks.empresa.map((link) => (
                 <li key={link.name}>
@@ -99,9 +102,9 @@ export const Footer = () => {
 
           {/* Regions */}
           <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
+            <p className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
               Presencia LATAM
-            </h4>
+            </p>
             <ul className="space-y-3">
               {footerLinks.regiones.map((region) => (
                 <li key={region} className="flex items-center gap-2 text-sm text-muted-foreground">
