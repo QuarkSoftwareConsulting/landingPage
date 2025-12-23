@@ -22,13 +22,15 @@ export const Header = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-quark-purple to-quark-cyan flex items-center justify-center group-hover:shadow-lg group-hover:shadow-quark-purple/30 transition-all duration-300">
-              <Rocket className="w-5 h-5 text-foreground" />
-            </div>
+            <img
+              src="/logo.png"
+              alt="Quark Software Consulting"
+              className="h-10 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
+            />
           </div>
           <span className="text-xl font-bold tracking-tight">
-            <span className="text-foreground">Quark</span>
-            <span className="text-muted-foreground font-normal ml-1">Software</span>
+            <span className="text-foreground">Software</span>
+            <span className="text-muted-foreground font-normal ml-1">Consulting</span>
           </span>
         </Link>
 
