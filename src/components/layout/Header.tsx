@@ -25,10 +25,10 @@ export const Header = () => {
             <img
               src="/logo.png"
               alt="Quark Software Consulting"
-              className="h-10 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
+              className="h-12 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
             />
           </div>
-          <span className="text-xl font-bold tracking-tight">
+          <span className="text-m font-bold tracking-tight">
             <span className="text-foreground">Software</span>
             <span className="text-muted-foreground font-normal ml-1">Consulting</span>
           </span>
