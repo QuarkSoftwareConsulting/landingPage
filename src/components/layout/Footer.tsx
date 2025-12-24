@@ -29,15 +29,19 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-quark-purple to-quark-cyan flex items-center justify-center">
-                <Rocket className="w-5 h-5 text-foreground" />
-              </div>
-              <span className="text-xl font-bold tracking-tight">
-                <span className="text-foreground">Quark</span>
-                <span className="text-muted-foreground font-normal ml-1">Software</span>
-              </span>
-            </Link>
+        <Link to="/" className="flex items-center gap-3 group mb-6">
+          <div className="relative">
+            <img
+              src="/logo.png"
+              alt="Quark Software Consulting"
+              className="h-12 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
+            />
+          </div>
+          <span className="text-m font-bold tracking-tight">
+            <span className="text-foreground">Software</span>
+            <span className="text-muted-foreground font-normal ml-1">Consulting</span>
+          </span>
+        </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Transformamos tu visión en soluciones tecnológicas que impulsan resultados reales.
             </p>
