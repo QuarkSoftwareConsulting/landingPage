@@ -55,7 +55,7 @@ export const Header = () => {
         {/* CTA Button */}
         <div className="hidden lg:flex items-center gap-4">
           <Button variant="cta" size="lg" asChild>
-            <Link to="/contacto">Agendar Llamada</Link>
+            <Link to="/contacto">Contacto</Link>
           </Button>
         </div>
 
@@ -95,7 +95,7 @@ export const Header = () => {
             ))}
             <Button variant="cta" size="lg" className="mt-4" asChild>
               <Link to="/contacto" onClick={() => setMobileMenuOpen(false)}>
-                Agendar Llamada
+                Contacto
               </Link>
             </Button>
           </div>

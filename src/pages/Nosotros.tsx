@@ -192,11 +192,11 @@ const Nosotros = () => {
             <span className="text-foreground">¿Quieres conocernos mejor?</span>
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Agenda una llamada sin compromiso y conversemos sobre tu proyecto.
+            Agenda una llamada sin compromiso, o escribenos por whatsapp y conversemos sobre tu proyecto.
           </p>
           <Button variant="cta" size="xl" asChild>
             <Link to="/contacto" className="group">
-              Agendar llamada
+              Contacto
               <ArrowRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>

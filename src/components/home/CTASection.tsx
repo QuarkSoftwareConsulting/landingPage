@@ -29,7 +29,7 @@ export const CTASection = () => {
             <Button variant="cta" size="xl" asChild>
               <Link to="/contacto" className="group">
                 <Calendar className="w-5 h-5 mr-2" />
-                Agendar una llamada
+                Contacto
                 <ArrowRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
