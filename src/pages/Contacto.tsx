@@ -103,11 +103,11 @@ const Contacto = () => {
                   También puedes escribirnos directamente
                 </h3>
                 <a
-                  href="mailto:contacto@quarksoftware.co"
+                  href="mailto:conversemos@quark-co.tech"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Mail className="w-5 h-5 text-primary" />
-                  contacto@quarksoftware.co
+                  conversemos@quark-co.tech
                 </a>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="w-5 h-5 text-primary" />

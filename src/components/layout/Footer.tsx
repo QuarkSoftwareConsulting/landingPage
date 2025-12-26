@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Rocket, Mail, Linkedin, MapPin } from "lucide-react";
+import { Mail, Instagram, MapPin } from "lucide-react";
 
 const footerLinks = {
   servicios: [
@@ -47,7 +47,7 @@ export const Footer = () => {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="mailto:contacto@quarksoftware.co"
+                href="mailto:conversemos@quark-co.tech"
                 aria-label="Enviar correo a Quark Software"
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary/80 transition-colors"
               >
@@ -55,13 +55,13 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.instagram.com/quark.co_/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visitar LinkedIn de Quark Software"
+                aria-label="Visitar Instagram de Quark Software"
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary/80 transition-colors"
               >
-                <Linkedin className="w-5 h-5" aria-hidden="true" />
+                <Instagram className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
           </div>
