@@ -23,9 +23,9 @@ export const Header = () => {
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
             <img
-              src="/logo.png"
+              src="/1.svg"
               alt="Quark Software Consulting"
-              className="h-12 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
+              className="h-16 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
             />
           </div>
           <span className="text-m font-bold tracking-tight">

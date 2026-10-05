@@ -32,7 +32,7 @@ export const Footer = () => {
         <Link to="/" className="flex items-center gap-3 group mb-6">
           <div className="relative">
             <img
-              src="/logo.png"
+              src="/1.svg"
               alt="Quark Software Consulting"
               className="h-12 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
             />
